@@ -1,1 +1,30 @@
-/desktop.ini
+# OS files
+desktop.ini
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# Vector DB / embeddings (important for RAG)
+faiss_index/
+chroma_db/
+*.pkl
+
+# VS Code
+.vscode/
